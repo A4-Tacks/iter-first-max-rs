@@ -1,0 +1,16 @@
+[package]
+name = "iter-first-max"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
+keywords = ["no_std", "iterator", "max", "first", "equal"]
+categories = ["no-std", "rust-patterns"]
+description = """Iterator::max* returns the last for equal keys, \
+                 this crate implements the return the first"""
+
+license = "MIT"
+repository = "https://github.com/A4-Tacks/iter-first-max-rs"
+readme = "README.md"
+
+[dependencies]
