@@ -1,11 +1,11 @@
 [package]
 name = "iter-first-max"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
 keywords = ["no_std", "iterator", "max", "first", "equal"]
-categories = ["no-std"]
+categories = ["no-std", "no-std::no-alloc"]
 description = """Iterator::max* returns the last for equal keys, \
                  this crate implements the return the first"""
 
